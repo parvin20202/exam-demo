@@ -1,0 +1,17 @@
+@import "../../assets/sass/responsive";
+
+#header {
+  .header-top {
+    @include for-medium-devices {
+      display: none;
+    }
+  }
+  .header-bottom {
+    @include for-medium-devices {
+      text-align: center;
+      nav {
+        justify-content: center !important;
+      }
+    }
+  }
+}
